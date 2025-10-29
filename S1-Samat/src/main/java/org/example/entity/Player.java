@@ -1,8 +1,9 @@
-package org.example.Entity;
+package org.example.entity;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Player {
+public class Player implements Serializable {
     private int id;
     private String firstName;
     private String lastName;
